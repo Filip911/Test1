@@ -27,6 +27,16 @@ ul{
   padding-right:20px;
   color:#ffffff;
 }
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+}
+
+#main-col{
+  font-size:17px;
+}
 /* Header */
 header {
   background:#35424a;
@@ -122,6 +132,19 @@ header a:hover{
 
 #boxes .box img{
   width:150px;
+}
+
+/*sidebar*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+/*main-col*/
+article#main-col{
+  float:left;
+  width:65%;
 }
 
 footer{
