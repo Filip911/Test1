@@ -19,7 +19,7 @@ ul{
   padding:0px;
 }
 
-.button1{
+.button{
   height:27px;
   background:#e8491d;
   border:0;
@@ -34,9 +34,6 @@ ul{
   color:#ffffff;
 }
 
-#main-col{
-  font-size:17px;
-}
 /* Header */
 header {
   background:#35424a;
@@ -131,14 +128,14 @@ header a:hover{
 }
 
 #boxes .box img{
-  width:150px;
+  width:100px;
 }
 
 /*sidebar*/
 aside#sidebar{
   float:right;
   width:30%;
-  margin-top:10px;
+  margin-top:60px;
 }
 
 /*main-col*/
@@ -147,10 +144,50 @@ article#main-col{
   width:65%;
 }
 
+/* Services */
+ul#services li{
+  list-style:none;
+  border:#cccccc solid 1px;
+  background:#e6e6e6;
+  padding:20px;
+  margin-bottom:5px;
+}
+
 footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
   background-color:#e8491d;
   text-align:center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #brand,
+  header nav,
+  header nav li {
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #news button, .quote button{
+    display:block;
+    width:100%;
+  }
 }
