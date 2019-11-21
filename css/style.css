@@ -40,7 +40,7 @@ header {
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#e8491d 3px solid;
+  border-bottom:#089EC8 3px solid;
 }
 
 header a{
@@ -70,7 +70,7 @@ header nav {
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:#089EC8;
   font-weight:bold;
 }
 
@@ -157,7 +157,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#e8491d;
+  background-color:#089EC8;
   text-align:center;
 }
 
